@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8bfa150cbe7474dbe589bd030d8e49, type: 3}
+  m_Name: ConveyorBelt
+  m_EditorClassIdentifier: 
+  ID: 4
+  Name: Conveyor
+  inputPort: 1
+  outputPort: 1
+  buildingCategory: 1
+  subCategory: 3
+  BuildingPrefab: {fileID: 7244689824238781811, guid: 298fe378f1641574e92b6dd56c7cbac7, type: 3}
+  hologramPrefab: {fileID: 6889771377026993026, guid: c3266a1554aa7d740a2c7ac51c276950, type: 3}
+  beltSegment: {fileID: -5495902117074765545, guid: c828c27d443841c4eb30ce9c0ef8eb36, type: 3}
+  AvailableRecepies: []
+  BuildingCost: []

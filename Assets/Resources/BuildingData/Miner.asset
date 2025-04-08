@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8bfa150cbe7474dbe589bd030d8e49, type: 3}
+  m_Name: Miner
+  m_EditorClassIdentifier: 
+  ID: 2
+  Name: Miner
+  inputPort: 0
+  outputPort: 1
+  buildingCategory: 0
+  subCategory: 1
+  BuildingPrefab: {fileID: 5520510123078610100, guid: c3bc061094472d44cb1f708eefe90664, type: 3}
+  hologramPrefab: {fileID: 7792223607198056513, guid: c747b614335f5f145b8c621e6d566f62, type: 3}
+  AvailableRecepies:
+  - {fileID: 11400000, guid: f05153bb1b46b6f46ae530152396a846, type: 2}
+  - {fileID: 11400000, guid: 24946ac6db98bf24593d1d2f11ad534f, type: 2}
+  BuildingCost: []

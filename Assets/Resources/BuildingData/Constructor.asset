@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8bfa150cbe7474dbe589bd030d8e49, type: 3}
+  m_Name: Constructor
+  m_EditorClassIdentifier: 
+  ID: 0
+  Name: Construction sphere
+  inputPort: 1
+  outputPort: 1
+  buildingCategory: 0
+  subCategory: 2
+  BuildingPrefab: {fileID: 6759980969153051491, guid: 78f7b1e388249824cbbda0073825e03f, type: 3}
+  hologramPrefab: {fileID: 3817785946357128858, guid: 118fb21d61432964fbd1c99ba4067944, type: 3}
+  AvailableRecepies:
+  - {fileID: 11400000, guid: b4547dc80e5db434bbd10b9e666a80a5, type: 2}
+  - {fileID: 11400000, guid: 921a5b5c69691de40898c796904f61cc, type: 2}
+  BuildingCost:
+  - item: {fileID: 11400000, guid: fa16e2aee1027164b879be71b0115d91, type: 2}
+    amount: 2
+  - item: {fileID: 11400000, guid: 05e6a9001bacf3149ac1f4b8f547b09f, type: 2}
+    amount: 2
